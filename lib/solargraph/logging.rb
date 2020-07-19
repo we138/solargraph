@@ -4,7 +4,7 @@ require 'logger'
 
 module Solargraph
   module Logging
-    DEFAULT_LOG_LEVEL = Logger::WARN
+    DEFAULT_LOG_LEVEL = Logger::DEBUG
 
     LOG_LEVELS = {
       'warn' => Logger::WARN,
